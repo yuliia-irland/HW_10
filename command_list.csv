@@ -1,0 +1,53 @@
+    1  python
+    2  cd Desktop
+    3  touch calc.py
+    4  cd /
+    5  ls -lt
+    6  cd Volumes/No Name
+    7  cd "Volumes/No Name"
+    8  ls -lt
+    9  cd Desktop/'\n
+   10  cd Desktop
+   11  touch test.html
+   12  pip3 install BeautifulSoup
+   13  pip install BeautifulSoup
+   14  cd Downloads
+   15  cd ntfs-3g_ntfsprogs-2022.10.3
+   16  ./configure
+   17  mkdir git_practice
+   18  ls -lt
+   19  cd git_practice
+   20  git
+   21  brew install git
+   22  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   23   git
+   24  git config user.name yuliia --global
+   25  git config --global user.name yuliia
+   26  git config --global user.email yulyabelya4@gmail.com
+   27  git clone https://github.com/yuliia-irland/HW_10.git
+   28  cd HW_10
+   29  ls -lt
+   30  ls -lta
+   31  cat .gitignore
+   32  touch text_ignore.txt 
+   33  echo "text_ignore.txt" >> .gitignore
+   34  git status
+   35  git add
+   36  git add.
+   37  git commit -m "Додано .gitignore для ігнорування text_ignore.txt"
+   38  touch main_test.txt
+   39  git add.
+   40  git commit -m "Додано порожній файл main_test.txt"
+   41  git checkout -b develop
+   42  touch develope_test.txt
+   43  git add.
+   44  git commit -m "Додано порожній файл develop_test.txt"
+   45  echo "just a small change" >> develop_test.txt
+   46  git status
+   47  git add.
+   48  git commit -m "Оновлено develop_test.txt: додано рядок 'just a small change'"
+   49  git checkout main
+   50  git checkout master
+   51  git merge develop
+   52  git add.
+   53  git log --oneline --graph --all
